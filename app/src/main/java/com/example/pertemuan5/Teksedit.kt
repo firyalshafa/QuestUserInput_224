@@ -3,6 +3,7 @@ package com.example.pertemuan5
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.runtime.Composable
@@ -32,6 +33,7 @@ fun FormatDataDiri(modifier: Modifier){
             value = textNama,
             singleLine = true,
             shape = MaterialTheme.shapes.large,
+            modifier = Modifier.width(width = 250.dp),
 
         )
     }
