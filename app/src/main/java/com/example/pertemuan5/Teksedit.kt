@@ -29,6 +29,7 @@ fun FormatDataDiri(modifier: Modifier){
         horizontalAlignment = Alignment.CenterHorizontally){
         OutlinedTextField(
             value = textNama,
+            singleLine = true,
 
         )
     }
