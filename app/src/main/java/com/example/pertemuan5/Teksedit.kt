@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -34,6 +35,7 @@ fun FormatDataDiri(modifier: Modifier){
             singleLine = true,
             shape = MaterialTheme.shapes.large,
             modifier = Modifier.width(width = 250.dp),
+            label = { Text(text = "nama lengkap") }
 
         )
     }
