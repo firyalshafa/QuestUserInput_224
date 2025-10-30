@@ -8,8 +8,10 @@ import java.text.Format
 
 @Composable
 fun FormatDataDiri(modifier: Modifier){
-    var textNama by remember { mutableStateOf(value="") }
-    var textAlamt by remember { mutableStateOf(value = "") }
-    var  textJk by remember { mutableStateOf(value = "") }
+    var textNama by remember { mutableStateOf("") }
+    var textAlamat by remember { mutableStateOf("") }
+    var textJk by remember { mutableStateOf("") }
+
+    var nama by remember { mutableStateOf(value = ) }
 
 }
