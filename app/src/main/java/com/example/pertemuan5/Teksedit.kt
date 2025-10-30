@@ -13,5 +13,6 @@ fun FormatDataDiri(modifier: Modifier){
     var textJk by remember { mutableStateOf("") }
 
     var nama by remember { mutableStateOf(value = ) }
+    var  alamat by remember { mutableStateOf(value = ) }
 
 }
