@@ -36,8 +36,13 @@ fun FormatDataDiri(modifier: Modifier){
             shape = MaterialTheme.shapes.large,
             modifier = Modifier.width(width = 250.dp),
             label = { Text(text = "nama lengkap") }
+            onValueChange={
+                textNama= it
+            }
 
         )
+
+
     }
 
 
