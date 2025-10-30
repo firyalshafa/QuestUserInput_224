@@ -10,5 +10,6 @@ import java.text.Format
 fun FormatDataDiri(modifier: Modifier){
     var textNama by remember { mutableStateOf(value="") }
     var textAlamt by remember { mutableStateOf(value = "") }
+    var  textJk by remember { mutableStateOf(value = "") }
 
 }
