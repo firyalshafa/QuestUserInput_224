@@ -81,7 +81,10 @@ fun FormatDataDiri(modifier: Modifier
 
         Row {
             statusKawin.forEach{ item ->
-                Row (
+                Row ( modifier = Modifier.selectable(
+                    selected = textStatus == item,
+                    onClick = { textStatus = item }
+                )
 
                 )
 
