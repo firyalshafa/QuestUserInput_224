@@ -85,8 +85,10 @@ fun FormatDataDiri(modifier: Modifier
                     selected = textStatus == item,
                     onClick = { textStatus = item }
                 )
+                    .padding(end = 10.dp),
+                    verticalAlignment = Alignment.CenterHorizontally
 
-                )
+                ){}
 
             }
         }
