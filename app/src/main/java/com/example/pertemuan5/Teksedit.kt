@@ -90,6 +90,8 @@ fun FormatDataDiri(modifier: Modifier
 
                 ){
                     RadioButton(
+                        selected = textStatus == item,
+                        onClick = { textStatus = item }
 
                     )
                 }
