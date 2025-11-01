@@ -94,6 +94,7 @@ fun FormatDataDiri(modifier: Modifier
                         onClick = { textStatus = item }
 
                     )
+                    Text(text = item)
                 }
 
             }
