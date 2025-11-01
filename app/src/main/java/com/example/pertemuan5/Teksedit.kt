@@ -22,12 +22,12 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 
 @Composable
-fun FormDataDiri(modifier: Modifier
+fun FormatDataDiri(modifier: Modifier
 ){
     var textNama by remember { mutableStateOf(value = "")}
     var textAlamat by remember { mutableStateOf(value = "")}
     var textJK by remember { mutableStateOf(value = "")}
-
+    var textStatus by remember { mutableStateOf("") }
     var nama by remember { mutableStateOf(value = "")}
     var alamat by remember { mutableStateOf(value = "")}
     var jenis by remember { mutableStateOf(value = "")}
@@ -97,7 +97,7 @@ fun FormDataDiri(modifier: Modifier
         }
 
         HorizontalDivider(
-            modifier = Modifier.padding(bottom = dimensionResource(id = R.dimen.padding_medium))
+            modifier = Modifier.padding(bottom = dimensionResource(id = R.dimen.padding_medium),)
 
         )
 
