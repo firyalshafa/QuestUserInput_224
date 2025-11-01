@@ -74,6 +74,9 @@ fun FormatDataDiri(modifier: Modifier
             }
         }
         Spacer(modifier = Modifier.height(16.dp))
+
+        Text(text = "Status Perkawinan", style = MaterialTheme.typography.bodyLarge)
+
         OutlinedTextField(
             value = textAlamat,
             singleLine = true,
