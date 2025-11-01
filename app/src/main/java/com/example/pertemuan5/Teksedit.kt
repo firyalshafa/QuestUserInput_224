@@ -38,7 +38,8 @@ fun FormatDataDiri(modifier: Modifier
     val gender:List<String> = listOf("laki-laki", "Perempuan")
     val statusKawin = listOf("Janda", "Lajang", "Duda")
 
-    Column(modifier = Modifier.padding(top = 50.dp)
+    Column(modifier = Modifier
+        .padding(top = 50.dp)
         .fillMaxWidth(),
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally) {
@@ -58,10 +59,11 @@ fun FormatDataDiri(modifier: Modifier
         Row {
             gender.forEach { item ->
                 Row(
-                    modifier = Modifier.selectable(
-                        selected = textJK == item,
-                        onClick = { textJK = item }
-                    )
+                    modifier = Modifier
+                        .selectable(
+                            selected = textJK == item,
+                            onClick = { textJK = item }
+                        )
                         .padding(end = 10.dp),
                     verticalAlignment = Alignment.CenterVertically) {
                     RadioButton(
@@ -76,6 +78,15 @@ fun FormatDataDiri(modifier: Modifier
         Spacer(modifier = Modifier.height(16.dp))
 
         Text(text = "Status Perkawinan", style = MaterialTheme.typography.bodyLarge)
+
+        Row {
+            statusKawin.forEach{ item ->
+                Row (
+
+                )
+
+            }
+        }
 
         OutlinedTextField(
             value = textAlamat,
