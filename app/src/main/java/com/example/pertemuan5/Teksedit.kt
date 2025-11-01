@@ -53,6 +53,8 @@ fun FormatDataDiri(modifier: Modifier
             }
         )
         Spacer(modifier = Modifier.height(16.dp))
+
+        Text(text = "Jenis Kelamin", style = MaterialTheme.typography.bodyLarge)
         Row {
             gender.forEach { item ->
                 Row(
