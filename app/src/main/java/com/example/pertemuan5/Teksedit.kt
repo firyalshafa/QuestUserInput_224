@@ -86,7 +86,7 @@ fun FormatDataDiri(modifier: Modifier
                     onClick = { textStatus = item }
                 )
                     .padding(end = 10.dp),
-                    verticalAlignment = Alignment.CenterHorizontally
+                    verticalAlignment = Alignment.CenterVertically
 
                 ){
                     RadioButton(
