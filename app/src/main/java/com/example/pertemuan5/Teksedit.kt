@@ -5,6 +5,7 @@ import com.example.pertemuan5.R
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -51,6 +52,7 @@ fun FormatDataDiri(modifier: Modifier
                 textNama = it
             }
         )
+        Spacer(modifier = Modifier.height(16.dp))
         Row {
             gender.forEach { item ->
                 Row(
