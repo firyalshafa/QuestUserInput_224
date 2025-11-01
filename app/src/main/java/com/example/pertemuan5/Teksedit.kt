@@ -100,6 +100,8 @@ fun FormatDataDiri(modifier: Modifier
             }
         }
 
+        Spacer(modifier = Modifier.height(16.dp))
+
         OutlinedTextField(
             value = textAlamat,
             singleLine = true,
