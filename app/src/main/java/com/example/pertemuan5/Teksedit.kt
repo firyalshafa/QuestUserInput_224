@@ -129,6 +129,7 @@ fun FormatDataDiri(modifier: Modifier
                 nama=textNama
                 jenis=textJK
                 alamat=textAlamat
+                status=textStatus
             }
         ){
             Text(text = stringResource(id = R.string.submit))
