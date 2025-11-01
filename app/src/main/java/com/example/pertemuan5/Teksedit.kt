@@ -147,18 +147,15 @@ fun FormatDataDiri(modifier: Modifier
             thickness = dimensionResource(R.dimen.divider_tipis),
             color = Color.DarkGray
         )
-        Button(
-            modifier = Modifier.fillMaxWidth(1f),
-            // the button is enabled when the user makes a selection
-            enabled = textAlamat.isNotEmpty(),
-            onClick = {
-                nama=textNama
-                jenis=textJK
-                alamat=textAlamat
-            }
-        ) {
-            Text(stringResource(R.string.submit))
-        }
+
+        ElevatedCard (
+            elevation = CardDefaults.cardElevation(defaultElevation = 10.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.Black),
+            modifier = Modifier
+                .height(150.dp)
+                .width(300.dp)
+        ){}
+
 
         HorizontalDivider(
             modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_medium), top = dimensionResource(
